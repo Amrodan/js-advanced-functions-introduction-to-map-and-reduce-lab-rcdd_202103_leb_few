@@ -1,4 +1,5 @@
 // Your code here
+<<<<<<< HEAD
 function mapToNegativize (sourceArray) {
   return sourceArray.map(x => x * -1);
 }
@@ -42,3 +43,6 @@ function reduceToAnyTrue(sourceArray){
     }
     return sourceArray.reduce(reducer, false)
 }
+=======
+mapToNegativize(sourceArray)= sourceArray.map(-1);
+>>>>>>> b5c68f3c9cf7087ef281bcd852801db3292cacfc
